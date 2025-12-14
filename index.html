@@ -16,9 +16,16 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #f5f5f7; /* モダンな薄いグレー */
+            /* ここから和紙っぽく変更 */
+            background-color: #fcfaf2; /* 「鳥の子色」という和紙のような薄いクリーム色 */
+            background-image: 
+                radial-gradient(#e6e2d3 1px, transparent 1px),
+                radial-gradient(#e6e2d3 1px, transparent 1px);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            /* 繊維のような質感を出すための設定 */
             font-family: 'Helvetica Neue', Arial, sans-serif;
-        }
+            }
 
         /* 漢字表示エリア */
         #display-area {
